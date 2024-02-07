@@ -9,4 +9,5 @@ Onderandere gaan we ons bezig houden met :
 ## CSS
 - de css zo beknopt mogelijk houden
 - de code overzichtelijk houden
+
 *auteur* : --- Flore-Jan Smeets
