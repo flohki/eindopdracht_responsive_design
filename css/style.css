@@ -1,0 +1,62 @@
+/* Hier de font-family, kleuren, en detailwerk */
+/* de voorlopige root en kijken of dit mag om te gebruiken want is overgenomen van lemonlive... */
+:root {
+  --e-global-color-primary: #8D24E5;
+  --e-global-color-secondary: #5C5DBC;
+  --e-global-color-text: #FFFFFF;
+  --e-global-color-accent: #8D24E5;
+  --e-global-color-cd7fb58: #6553C3;
+  --e-global-color-c0a35c2: #FF0000;
+  --e-global-color-1170a6a: #000000;
+  --e-global-color-fbc1c54: #797878;
+  --e-global-color-9d8c27b: #111111;
+  --e-global-color-e591834: #F2F2FF;
+  --e-global-color-073e564: #545454;
+  --e-global-color-15fb991: #1F183A;
+  --e-global-color-aa6f337: #8D24E5;
+  --e-global-color-b623f90: #5B5DF0;
+  --e-global-color-0ba5acf: #F2F2FE;
+  --e-global-color-55f0320: #DBDBDB;
+  --e-global-color-5b0e92b: #545454;
+}
+
+body {
+  margin: 0;
+
+}
+
+.container {
+
+  margin: auto;
+}
+
+.topbar {
+  background: linear-gradient(to right, #8D24E5, #5C5DBC);
+  color: white;
+}
+
+.main-navigation {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.nav-wrapper a {
+  color: black;
+}
+
+.nav-wrapper button {
+  border: 3px solid var(--e-global-color-secondary);
+  background-color: #fff;
+  color: var(--e-global-color-secondary);
+  margin-right: 15px;
+}
+
+.nav-wrapper button:hover {
+  color: #FFF;
+  background-color: var(--e-global-color-secondary);
+}
+
+.startcontent {
+  background-image: url('../img/lemonlive_banner.jpg');
+}
